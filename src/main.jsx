@@ -54,7 +54,7 @@ function App() {
   return <main>
     <nav className="nav"><a className="logo image-logo" href="#top" aria-label="MH — Home"><img src={assetUrl("logo.png")} alt="MH logo" /></a><div className="nav-links"><a className="active" href="#top">Home</a><a href="#about">About</a><a href="#work">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div><a className="nav-cta" href="#contact">Let’s Connect <ArrowUpRight size={16} /></a></nav>
     <section id="top" className="hero">
-      <div className="hero-backdrop" aria-hidden="true"><video className="hero-video" src={assetUrl("hero.mp4")} autoPlay muted loop playsInline preload="metadata" /></div>
+      <div className="hero-backdrop" aria-hidden="true"><video className="hero-video hero-video-desktop" src={assetUrl("hero.mp4")} autoPlay muted loop playsInline preload="metadata" /><video className="hero-video hero-video-mobile" src={assetUrl("Home Video Portrait.mp4")} autoPlay muted loop playsInline preload="metadata" /></div>
       <div className="hero-content">
         <p className="availability-pill"><span className="status-dot" /> Available for new opportunities</p>
         <p className="hero-greeting">Hi, I’m <span>Muhammad Hassan</span></p>
